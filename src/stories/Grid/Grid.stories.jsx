@@ -18,10 +18,21 @@ export default {
 
 export const GridItemsTemplate = () => (
   <Grid columns={columns}>
-    <Row>
+    <Row className="row__hidden row__hidden--to-large">
       <GridItem>
         <img src={empty} />
       </GridItem>
+      <GridItem>
+        <img src={empty} />
+      </GridItem>
+      <GridItem>
+        <img src={empty} />
+      </GridItem>
+      <GridItem>
+        <img src={empty} />
+      </GridItem>
+    </Row>
+    <Row className="row__hidden row__hidden--to-small">
       <GridItem>
         <img src={empty} />
       </GridItem>
@@ -39,14 +50,8 @@ export const GridItemsTemplate = () => (
       <GridItem>
         <img src={empty} />
       </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
     </Row>
-    <Row>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
+    <Row className="row__hidden row__hidden--from-xlarge">
       <GridItem>
         <img src={empty} />
       </GridItem>

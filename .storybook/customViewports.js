@@ -14,14 +14,6 @@ export const customViewports = {
 
       },
     },
-    medium: {
-        name: 'medium',
-        styles: {
-          width: '800px',
-          height: '800px',
-
-        },
-      },
       medium: {
         name: 'medium',
         styles: {
