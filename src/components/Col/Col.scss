@@ -1,0 +1,15 @@
+@use '../../styles/variables' as *;
+
+.col {
+  width: auto;
+  margin: $gutterSmall;
+
+  @media (min-width: 800px) {
+    margin: $gutterMedium;
+  }
+  
+  &__content {
+    width: 100%;
+    height: 100%;
+  }
+}

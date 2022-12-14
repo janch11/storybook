@@ -1,8 +1,8 @@
 import { Grid } from "components/Grid";
-import { GridItem } from "components/GridItem";
+import { Col } from "components/Col";
 import { Row } from "components/Row";
 
-import empty from "assets/empty.jpg";
+import winter from "assets/winter.jpg";
 import { columns } from "assets/constants";
 
 export default {
@@ -16,45 +16,48 @@ export default {
   },
 };
 
-export const GridItemsTemplate = () => (
+export const GridTemplate = () => (
   <Grid columns={columns}>
     <Row className="row__hidden row__hidden--to-large">
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
+      
     </Row>
     <Row className="row__hidden row__hidden--to-small">
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
     </Row>
     <Row>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
+      <Col>
+        <img src={winter} />
+      </Col>
+      <Col>
+        <img src={winter} />
+      </Col>
+      
+      
     </Row>
     <Row className="row__hidden row__hidden--from-xlarge">
-      <GridItem>
-        <img src={empty} />
-      </GridItem>
+      <Col>
+        <img src={winter} />
+      </Col>
     </Row>
   </Grid>
 );

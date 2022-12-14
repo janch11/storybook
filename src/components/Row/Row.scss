@@ -1,50 +1,61 @@
 @use '../../styles/variables' as *;
 
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
   width: 100%;
-  column-gap: $marginXSmall;
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(6, auto);
+  }
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(8, auto);
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(12, auto);
+  }
+
   &__hidden {
     display: none;
     &--to-small {
       @media (min-width: 600px) {
-        display: flex;
+        display: grid;
       }
     }
     &--to-medium {
       @media (min-width: 800px) {
-        display: flex;
+        display: grid;
       }
     }
     &--to-large {
       @media (min-width: 1024px) {
-        display: flex;
+        display: grid;
       }
     }
     &--to-xlarge {
       @media (min-width: 1288px) {
-        display: flex;
+        display: grid;
       }
     }
 
     &--from-small {
       @media (max-width: 599px) {
-        display: flex;
+        display: grid;
       }
     }
     &--from-medium {
       @media (max-width: 799px) {
-        display: flex;
+        display: grid;
       }
     }
     &--from-large {
       @media (max-width: 1023px) {
-        display: flex;
+        display: grid;
       }
     }
     &--from-xlarge {
       @media (max-width: 1287px) {
-        display: flex;
+        display: grid;
       }
     }
   }

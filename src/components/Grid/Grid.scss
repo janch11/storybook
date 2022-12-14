@@ -1,6 +1,18 @@
 @use '../../styles/variables' as *;
 
 .grid {
-    width: auto;
-    margin: $marginXSmall;
+  width: auto;
+  margin: $marginXSmall;
+  @media (min-width: 600px) {
+    margin: $marginSmall;
+  }
+  @media (min-width: 800px) {
+    margin: $marginMedium;
+  }
+  @media (min-width: 1024px) {
+    margin: $marginLarge;
+  }
+  @media (min-width: 1288px) {
+    margin: $marginLarge;
+  }
 }
