@@ -1,0 +1,32 @@
+.card {
+  &__image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  &-content {
+    padding: 12px;
+  }
+  &__title {
+    color: #014253;
+  }
+  &__description {
+    color: #014253;
+    margin-bottom: 24px;
+  }
+  &__price-description {
+    color: #014253;
+    margin-bottom: 6px;
+  }
+  &__price {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  &__button {
+    font-weight: bold;
+    cursor: pointer;
+    color: #20A994;
+    border: none;
+    background: transparent;
+  }
+}
