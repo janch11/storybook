@@ -1,0 +1,11 @@
+@use '../../styles/variables' as *;
+
+.box {
+width: 100%;
+height: 40px;
+background-color: $primaryColor;
+}
+
+.column-heading {
+    text-align: center;
+}
