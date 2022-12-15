@@ -12,3 +12,5 @@ export default {
 };
 
 export const CardTemplate = () => <Card />;
+
+export const CardWithWhiteBackgroundTemplate = () => <Card withBackground />;

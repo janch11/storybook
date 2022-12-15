@@ -1,10 +1,11 @@
 import React from "react";
 import "./Card.scss";
 import winter from "assets/winter.jpg";
+import clsx from "clsx"
 
-export const Card = () => {
+export const Card = ({ withBackground }) => {
   return (
-    <div className="card">
+    <div className={clsx("card", withBackground && "card--with-background")}>
       <img className="card__image" src={winter} />
       <div className="card-content">
         <h3 className="card__title">Lorem ipsum dolor</h3>

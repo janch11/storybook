@@ -1,3 +1,5 @@
+@use '../../styles/variables' as *;
+
 .card {
   &__image {
     width: 100%;
@@ -8,14 +10,14 @@
     padding: 12px;
   }
   &__title {
-    color: #014253;
+    color: $primaryColor;
   }
   &__description {
-    color: #014253;
+    color: $primaryColor;
     margin-bottom: 24px;
   }
   &__price-description {
-    color: #014253;
+    color: $primaryColor;
     margin-bottom: 6px;
   }
   &__price {
@@ -25,8 +27,11 @@
   &__button {
     font-weight: bold;
     cursor: pointer;
-    color: #20A994;
+    color: $secondaryColor;
     border: none;
     background: transparent;
+  }
+  &--with-background {
+    background-color: $white;
   }
 }

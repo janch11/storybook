@@ -2,17 +2,18 @@
 
 .grid {
   width: auto;
-  margin: $marginXSmall;
+  padding: $paddingXSmall;
+  background-color: $gray;
   @media (min-width: 600px) {
-    margin: $marginSmall;
+    padding: $paddingSmall;
   }
   @media (min-width: 800px) {
-    margin: $marginMedium;
+    padding: $paddingMedium;
   }
   @media (min-width: 1024px) {
-    margin: $marginLarge;
+    padding: $paddingLarge;
   }
   @media (min-width: 1288px) {
-    margin: $marginLarge;
+    padding: $paddingLarge;
   }
 }
