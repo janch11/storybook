@@ -20,40 +20,40 @@ export const GridTemplate = () => (
   <Grid>
     <Row className="row__hidden row__hidden--to-large">
       <Col className="col--3-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--3-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--3-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--3-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
     </Row>
     <Row className="row__hidden row__hidden--to-small">
       <Col className="col--4-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--4-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--4-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
     </Row>
     <Row>
       <Col className="col--6-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
       <Col className="col--6-12">
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
     </Row>
     <Row className="row__hidden row__hidden--from-xlarge">
       <Col>
-        <img src={winter} />
+        <img alt="winter" src={winter} />
       </Col>
     </Row>
   </Grid>
